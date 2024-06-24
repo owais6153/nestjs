@@ -1,5 +1,9 @@
-export type UserType = {
+export type CreateUserType = {
   username: string;
-  email: string;
-  id: string;
+  password: string;
+};
+
+export type UpdateUserType = {
+  username: string;
+  password: string;
 };
